@@ -100,3 +100,15 @@ function cursorNormal() {
     crsr.style.backgroundColor = "#E5E7EB";
     crsr.style.cursor = "default";
 }
+
+const faqDets = document.querySelectorAll(".fa-dets");
+const faDetsMsg = document.querySelectorAll(".fa-dets-msg");
+const arrowIcon = document.querySelectorAll(".faqI");
+
+
+faqDets.forEach((elem,index)=>{
+    elem.addEventListener("click",()=>{
+        faDetsMsg[index].classList.toggle("hidden");
+        arrowIcon[index].classList.toggle("-rotate-180");
+    })
+})

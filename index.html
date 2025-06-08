@@ -36,7 +36,7 @@
             <i class="fa-solid fa-bars text-gray-600"></i>
         </button>
 
-        <div id="nav-mobile" class=" hidden inset-0 fixed p-3 bg-white lg:hidden z-10">
+        <div id="nav-mobile" class=" hidden inset-0 fixed p-3 bg-white lg:hidden z-30">
             <div id="old-nav" class="flex justify-between">
                 <a href="#" id="brand" class="flex gap-2 items-center">
                     <img src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%200.png" alt="logo"
@@ -433,10 +433,10 @@
         </div>
 
         <!-- STEP BY STEP  -->
-        <div id="steps" class="px-6 py-6 max-w-7xl mt-16 mx-auto lg:px-8 lg:mt-32 flex flex-col items-center">
+        <div id="steps" class="px-6 py-6  mt-16 mx-auto lg:px-8 lg:mt-32 flex flex-col items-center">
             <h2 class="font-semibold text-4xl z-20"> How it works </h2>
             <div id="step1"
-                class="border border-gray-300 rounded-lg px-8 py-12 flex flex-col items-center mt-8 lg:flex-row lg:w-350 lg:justify-between">
+                class="border border-gray-300 rounded-lg px-8 py-12 flex flex-col items-center mt-8 lg:flex-row lg:w-[95%] lg:justify-between">
                 <div class=" lg:w-1/2 relative z-10">
                     <span class="px-3 py-1 bg-yellow-50 text-yellow-800 font-medium
                     border border-yellow-600 rounded-lg"> Step 1 </span>
@@ -481,7 +481,7 @@
                 </div>
             </div>
             <div id="step2"
-                class="border border-gray-300 rounded-lg px-8 py-12 flex flex-col items-center mt-8 lg:flex-row lg:w-350 lg:justify-between">
+                class="border border-gray-300 rounded-lg px-8 py-12 flex flex-col items-center mt-8 lg:flex-row lg:w-[95%] lg:justify-between">
                 <div class=" lg:w-1/2 relative z-10">
                     <span class="px-3 py-1 bg-yellow-50 text-yellow-800 font-medium
                     border border-yellow-600 rounded-lg"> Step 2 </span>
@@ -526,7 +526,7 @@
                 </div>
             </div>
             <div id="step3"
-                class="border border-gray-300 rounded-lg px-8 py-12 flex items-center flex-col mt-8 lg:flex-row lg:w-350 lg:justify-between">
+                class="border border-gray-300 rounded-lg px-8 py-12 flex items-center flex-col mt-8 lg:flex-row lg:w-[95%] lg:justify-between">
                 <div class=" lg:w-1/2 relative z-10">
                     <span class="px-3 py-1 bg-yellow-50 text-yellow-800 font-medium
                     border border-yellow-600 rounded-lg"> Step 3 </span>
@@ -574,10 +574,11 @@
         </div>
 
         <!-- Bento Grid  -->
-        <div id="bento-grid"
-            class="px-4 py-6 max-w-7xl mt-16 mx-auto lg:px-8 lg:mt-32">
-            <h2 class="font-semibold text-4xl z-20 mb-15 text-center relative lg:text-6xl"> ToDesktop handles the details </h2>
-            <div id="bento-container" class=" flex flex-col items-center gap-6 relative lg:grid lg:grid-cols-3" style="grid-auto-rows: 96px;">
+        <div id="bento-grid" class="px-4 py-6 max-w-7xl mt-16 mx-auto  lg:mt-32">
+            <h2 class="font-semibold text-4xl z-20 mb-15 text-center relative lg:text-6xl"> ToDesktop handles the
+                details </h2>
+            <div id="bento-container" class=" flex flex-col items-center gap-6 relative lg:grid lg:grid-cols-3"
+                style="grid-auto-rows: 96px;">
                 <div id="border-cover"
                     class="lg:w-full row-start-1 row-end-3 group w-9/12 rounded-2xl p-[1px] bg-gray-200 group hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200 z-20">
                     <div
@@ -642,64 +643,341 @@
         </div>
 
         <!-- fast Scroller  -->
-        <div id="scroller-container" class="overflow-x-hidden border border-gray-300 rounded-2xl  bg-slate-50 px-6 py-6 mt-10 mb-10 mx-auto lg:px-8 lg:mt-32  w-10/12">
+        <div id="scroller-container"
+            class="overflow-x-hidden border border-gray-300 rounded-2xl  bg-slate-50 px-6 py-6 mt-10 mb-10 mx-auto lg:mt-32 w-11/12 relative z-20">
             <div id="fast-scroller" class=" flex gap-5  -translate-x-30 font-semibold ">
-                <h3 class="w-full whitespace-nowrap text-2xl"> <i class="fa-solid fa-circle scale-35 mx-5"></i> Download  Analytics </h3>
-                <h3 class="w-full whitespace-nowrap text-2xl"> <i class="fa-solid fa-circle scale-35 mx-5"></i> Custome Menus </h3>
-                <h3 class="w-full whitespace-nowrap text-2xl"> <i class="fa-solid fa-circle scale-35 mx-5"></i> Multi-window support </h3>
-                <h3 class="w-full whitespace-nowrap text-2xl"> <i class="fa-solid fa-circle scale-35 mx-5"></i> Trays </h3>
-                <h3 class="w-full whitespace-nowrap text-2xl"> <i class="fa-solid fa-circle scale-35 mx-5"></i> Deep Linking </h3>
-                <h3 class="w-full whitespace-nowrap text-2xl"> <i class="fa-solid fa-circle scale-35 mx-5"></i> Download Analytics </h3>
-                <h3 class="w-full whitespace-nowrap text-2xl"> <i class="fa-solid fa-circle scale-35 mx-5"></i> Launch at startup </h3>
-                <h3 class="w-full whitespace-nowrap text-2xl"> <i class="fa-solid fa-circle scale-35 mx-5"></i> Offline Support</h3>
-                <h3 class="w-full whitespace-nowrap text-2xl"> <i class="fa-solid fa-circle scale-35 mx-5"></i> Good Signing </h3>
-        </div>
+                <h3 class="w-full whitespace-nowrap text-2xl"> <i class="fa-solid fa-circle scale-35 mx-5"></i> Download
+                    Analytics </h3>
+                <h3 class="w-full whitespace-nowrap text-2xl"> <i class="fa-solid fa-circle scale-35 mx-5"></i> Custome
+                    Menus </h3>
+                <h3 class="w-full whitespace-nowrap text-2xl"> <i class="fa-solid fa-circle scale-35 mx-5"></i>
+                    Multi-window support </h3>
+                <h3 class="w-full whitespace-nowrap text-2xl"> <i class="fa-solid fa-circle scale-35 mx-5"></i> Trays
+                </h3>
+                <h3 class="w-full whitespace-nowrap text-2xl"> <i class="fa-solid fa-circle scale-35 mx-5"></i> Deep
+                    Linking </h3>
+                <h3 class="w-full whitespace-nowrap text-2xl"> <i class="fa-solid fa-circle scale-35 mx-5"></i> Download
+                    Analytics </h3>
+                <h3 class="w-full whitespace-nowrap text-2xl"> <i class="fa-solid fa-circle scale-35 mx-5"></i> Launch
+                    at startup </h3>
+                <h3 class="w-full whitespace-nowrap text-2xl"> <i class="fa-solid fa-circle scale-35 mx-5"></i> Offline
+                    Support</h3>
+                <h3 class="w-full whitespace-nowrap text-2xl"> <i class="fa-solid fa-circle scale-35 mx-5"></i> Good
+                    Signing </h3>
+            </div>
         </div>
 
-        <!-- <div id="price-section" class="min-h-screen px-12">
+        <!-- Testimonials  -->
+        <div id="testmonials"
+            class="p-6 max-w-[100%] mt-16 mx-auto lg:mt-32 flex flex-col items-center gap-10 relative z-20">
+            <h2 class="text-5xl font-semibold"> Customer Stories </h2>
+            <div id="testmonials-container"
+                class="p-6 lg:px-0 border border-gray-200 rounded-lg gap-10 flex flex-col lg:flex-row lg:justify-between">
+                <div id="testmonial-left" class="flex flex-col items-start gap-5 lg:px-6">
+
+                    <img src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2044.svg" alt="">
+                    <h3 class="font-medium text-2xl"> ClickUp used ToDesktop to get their desktop app in front of
+                        customers in days instead of months. </h3>
+                    <div id="tag-container" class="flex flex-wrap gap-5">
+                        <h2 class="py-0 px-2 bg-yellow-50 text-yellow-700 border border-yellow-500 rounded-lg"> <i
+                                class="fa-solid fa-check"></i> Chromeless UI </h2>
+                        <h2 class="py-0 px-2 bg-yellow-50 text-yellow-700 border border-yellow-500 rounded-lg"> <i
+                                class="fa-solid fa-check"></i>
+                            Native spellcheck </h2>
+                        <h2 class="py-0 px-2 bg-yellow-50 text-yellow-700 border border-yellow-500 rounded-lg"> <i
+                                class="fa-solid fa-check"></i> Task time in menubar </h2>
+                        <h2 class="py-0 px-2 bg-yellow-50 text-yellow-700 border border-yellow-500 rounded-lg"> <i
+                                class="fa-solid fa-check"></i> Notification count in the dock </h2>
+                        <h2 class="py-0 px-2 bg-yellow-50 text-yellow-700 border border-yellow-500 rounded-lg"> <i
+                                class="fa-solid fa-check"></i> Global hotkey to create task </h2>
+                    </div>
+                    <p class="text-lg text-gray-500"> “ToDesktop provided us with a polished desktop app in no time.
+                        Their expert team guided us through a smooth migration from our outdated legacy desktop app,
+                        enabling us to deliver new and improved features to our customers within days.” </p>
+                    <div class="flex gap-2">
+                        <img src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2045.jpeg"
+                            alt="" class="rounded-full h-12 w-12">
+                        <div class="flex flex-col ga-3">
+                            <p>Zeb Evans </p>
+                            <p class="text-gray-500"> Founder & CEO, <a href="" class="text-black"> ClickUp </a></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="testmonials-right">
+                    <div>
+                        <img src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2046.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="testmonials-cards" class="w-[100%] mt-1 flex flex-col gap-10 lg:flex-row">
+                <div
+                    class="card-bento-wrapper bg-gray-200 rounded-lg hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200  hover:to-yellow-200 group">
+                    <div id="t-card-1"
+                        class="flex flex-col items-start m-[1px] p-6 rounded-lg bg-slate-50 group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50  grouphover:to-yellow-50">
+                        <div id="c1-head" class="flex whitespace-nowrap gap-5 items-center">
+                            <i
+                                class="fa-solid fa-code bg-blue-100 text-2xl font-light px-3 py-4 text-center rounded-full"></i>
+                            <h2 class="text-2xl font-bold"> Native APIs </h2>
+                        </div>
+                        <p class="font-light text-lg mt-5"> What sets ToDesktop apart is its seamless integration with
+                            native APIs using
+                            our existing web codebase. By tapping into APIs like Tray and Notifications, we've crafted
+                            an exceptionally
+                            polished desktop user experience. </p>
+                        <div class="card-btm flex  items-center">
+                            <div class="c-btm-1 flex items-center mt-4">
+                                <img src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2047.png"
+                                    alt="" class="rounded-full h-14 w-14">
+                                <img src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2048.jpeg"
+                                    alt="" class="rounded-full h-12 w-12 -translate-x-4">
+                            </div>
+                            <div class="c-btm-2 flex flex-col mt-3 justify-center">
+                                <p class="font-medium text-lg"> Rick Pastoor </p>
+                                <span>
+                                    <a href=""
+                                        class="text-gray-500 border-dotted border-b-2 border-b-gray-300 hover:border-solid hover:border-gray-700">
+                                        Rise </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="card-bento-wrapper bg-gray-200 rounded-lg hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200  hover:to-yellow-200 group">
+                    <div id="t-card-1"
+                        class="flex flex-col items-start m-[1px] p-6 rounded-lg bg-slate-50 group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50  grouphover:to-yellow-50">
+                        <div id="c1-head" class="flex whitespace-nowrap gap-5 items-center">
+                            <i
+                                class="fa-solid fa-code bg-blue-100 text-2xl font-light px-3 py-4 text-center rounded-full"></i>
+                            <h2 class="text-2xl font-bold"> Native APIs </h2>
+                        </div>
+                        <p class="font-light text-lg mt-5"> What sets ToDesktop apart is its seamless integration with
+                            native APIs using
+                            our existing web codebase. By tapping into APIs like Tray and Notifications, we've crafted
+                            an exceptionally
+                            polished desktop user experience. </p>
+                        <div class="card-btm flex  items-center">
+                            <div class="c-btm-1 flex items-center mt-4">
+                                <img src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2047.png"
+                                    alt="" class="rounded-full h-14 w-14">
+                                <img src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2048.jpeg"
+                                    alt="" class="rounded-full h-12 w-12 -translate-x-4">
+                            </div>
+                            <div class="c-btm-2 flex flex-col mt-3 justify-center">
+                                <p class="font-medium text-lg"> Rick Pastoor </p>
+                                <span>
+                                    <a href=""
+                                        class="text-gray-500 border-dotted border-b-2 border-b-gray-300 hover:border-solid hover:border-gray-700">
+                                        Rise </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="card-bento-wrapper bg-gray-200 rounded-lg hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200  hover:to-yellow-200 group">
+                    <div id="t-card-1"
+                        class="flex flex-col items-start m-[1px] p-6 rounded-lg bg-slate-50 group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50  grouphover:to-yellow-50">
+                        <div id="c1-head" class="flex whitespace-nowrap gap-5 items-center">
+                            <i
+                                class="fa-solid fa-code bg-blue-100 text-2xl font-light px-3 py-4 text-center rounded-full"></i>
+                            <h2 class="text-2xl font-bold"> Native APIs </h2>
+                        </div>
+                        <p class="font-light text-lg mt-5"> What sets ToDesktop apart is its seamless integration with
+                            native APIs using
+                            our existing web codebase. By tapping into APIs like Tray and Notifications, we've crafted
+                            an exceptionally
+                            polished desktop user experience. </p>
+                        <div class="card-btm flex  items-center">
+                            <div class="c-btm-1 flex items-center mt-4">
+                                <img src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2047.png"
+                                    alt="" class="rounded-full h-14 w-14">
+                                <img src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2048.jpeg"
+                                    alt="" class="rounded-full h-12 w-12 -translate-x-4">
+                            </div>
+                            <div class="c-btm-2 flex flex-col mt-3 justify-center">
+                                <p class="font-medium text-lg"> Rick Pastoor </p>
+                                <span>
+                                    <a href=""
+                                        class="text-gray-500 border-dotted border-b-2 border-b-gray-300 hover:border-solid hover:border-gray-700">
+                                        Rise </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="testmonials-container-black"
+                class="p-6 lg:px-0 border border-gray-200 rounded-lg gap-10 flex flex-col lg:flex-row lg:justify-between bg-black text-white pt-10">
+                <div id="testmonial-left" class="flex flex-col items-start gap-10 lg:px-6 lg:justify-center">
+                    <span class="text-gray-400"> READY TO START BUILDING? </span>
+                    <h3 class="font-medium text-5xl"> Create your desktop app for free* </h3>
+                    <p class="text-lg text-gray-400"> ToDesktop Builder will take you step-by-step through the process
+                        of creating your first desktop app in just a few minutes. </p>
+                    <button class="w-full py-3 bg-primary rounded-lg">
+                        <i class="fa-solid fa-download"></i>
+                        Download ToDesktop Builder
+                    </button>
+                    <p class="text-xs text-gray-500 italic"> *You can create a desktop app and run it on your computer
+                        for free. You will only be charged if you want to create a distributable app for your customers.
+                    </p>
+                </div>
+                <div id="testmonials-right">
+                    <div>
+                        <img src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2046.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="price-section" class="min-h-screen px-6 mt-15 relative z-20">
             <h1 class="text-5xl font-semibold leading-snug"> Choose a plan that fits your needs </h1>
-            <div id="price-card" class="lg:flex gap-5">
-                <div id="price-cards" class="min-h-50 border border-gray-300 rounded-lg py-8 px-10 mt-10">
-                <h4 class="text-4xl font-medium mb-6 mt-3"> Free </h4>
-                <p class="text-lg text-gray-400"> For personal user or testing you app before deploying to customers.
-                </p>
-                <h4 class="my-6 text-lg"> KEY FEATURES </h4>
-                <div id="key-features" class="flex flex-col gap-3 text-gray-500 text-lg">
-                    <p class="flex gap-3 items-center"> <i class="fa-solid fa-check"></i> Free for industrial use </p>
-                    <p class="flex gap-3 items-center"> <i class="fa-solid fa-xmark"></i> Free for personal use </p>
-                    <p class="flex gap-3 items-center"> <i class="fa-solid fa-check"></i> Free for industrial use </p>
-                    <p class="flex gap-3 items-center"> <i class="fa-solid fa-xmark"></i> Free for personal use </p>
+            <div id="price-cards" class="lg:flex lg:justify-between gap-5">
+                <div id="price-card-1"
+                    class="min-h-50 border border-gray-300 rounded-lg py-8 px-10 mt-10 lg:w-[60%] flex flex-col gap-2 lg:bg-slate-100 lg:border-none">
+                    <h4 class="text-4xl font-medium mb-6 mt-3"> Free </h4>
+                    <p class="text-lg text-gray-400"> For personal user or testing you app before deploying to
+                        customers.
+                    </p>
+                    <h4 class="my-6 text-lg"> KEY FEATURES </h4>
+                    <div id="key-features" class="flex flex-col gap-3 text-gray-500 text-lg">
+                        <p class="flex gap-3 items-center"> <i class="fa-solid fa-check"></i> Free for industrial use
+                        </p>
+                        <p class="flex gap-3 items-center"> <i class="fa-solid fa-xmark"></i> Free for personal use </p>
+                        <p class="flex gap-3 items-center"> <i class="fa-solid fa-check"></i> Free for industrial use
+                        </p>
+                        <p class="flex gap-3 items-center"> <i class="fa-solid fa-xmark"></i> Free for personal use </p>
+                    </div>
+                    <button
+                        class="text-purple-800 py-3 w-full border border-gray-300 font-medium mt-7 hover:border-gray-800 rounded-lg">
+                        Read Docs </button>
                 </div>
-                <button class="text-purple-800 py-3 w-full border border-gray-300 font-medium mt-7 hover:border-gray-800 rounded-lg"> Read Docs </button>
-            </div>
-            <div id="price-cards" class="min-h-100 border border-gray-300 rounded-lg py-8 px-10 mt-10">
-                <h4 class="text-4xl font-medium mb-6 mt-3"> Free </h4>
-                <p class="text-lg text-gray-400"> For personal user or testing you app before deploying to customers.
-                </p>
-                <h4 class="my-6 text-lg"> KEY FEATURES </h4>
-                <div id="key-features" class="flex flex-col gap-3 text-gray-500 text-lg">
-                    <p class="flex gap-3 items-center"> <i class="fa-solid fa-check"></i> Free for industrial use </p>
-                    <p class="flex gap-3 items-center"> <i class="fa-solid fa-xmark"></i> Free for personal use </p>
-                    <p class="flex gap-3 items-center"> <i class="fa-solid fa-check"></i> Free for industrial use </p>
-                    <p class="flex gap-3 items-center"> <i class="fa-solid fa-xmark"></i> Free for personal use </p>
+                <div id="price-card-2"
+                    class="min-h-100 border border-gray-300 rounded-lg py-8 px-10 mt-10 lg:w-[60%] flex flex-col gap-2 lg:bg-slate-100 lg:border-none">
+                    <h4 class="text-4xl font-medium mb-6 mt-3"> Free </h4>
+                    <p class="text-lg text-gray-400"> For simple desktop apps.
+                    </p>
+                    <span class="font-medium text-2xl"> $99/month </span>
+                    <h4 class="my-6 text-lg"> KEY FEATURES </h4>
+                    <div id="key-features" class="flex flex-col gap-3 text-gray-500 text-lg">
+                        <p class="flex gap-3 items-center"> <i class="fa-solid fa-check"></i> Free for industrial use
+                        </p>
+                        <p class="flex gap-3 items-center"> <i class="fa-solid fa-xmark"></i> Free for personal use </p>
+                        <p class="flex gap-3 items-center"> <i class="fa-solid fa-check"></i> Free for industrial use
+                        </p>
+                        <p class="flex gap-3 items-center"> <i class="fa-solid fa-xmark"></i> Free for personal use </p>
+                    </div>
+                    <button
+                        class="text-purple-800 py-3 w-full border border-gray-300 font-medium mt-7 hover:border-gray-800 rounded-lg">
+                        Read Docs </button>
                 </div>
-                <button class="text-purple-800 py-3 w-full border border-gray-300 font-medium mt-7 hover:border-gray-800 rounded-lg"> Read Docs </button>
-            </div>
-            <div id="price-cards" class="min-h-100 border border-gray-300 rounded-lg py-8 px-10 mt-10 sm:h-80 sm:border-0 sm:bg-blue-50">
-                <h4 class="text-4xl font-medium mb-6 mt-3"> Professional </h4>
-                <p class="text-lg text-gray-400"> For sophisticated desktop apps.
-                </p>
-                <h4 class="my-6 text-lg"> KEY FEATURES </h4>
-                <div id="key-features" class="flex flex-col gap-3 text-gray-500 text-lg">
-                    <p class="flex gap-3 items-center"> <i class="fa-solid fa-check"></i> Free for industrial use </p>
-                    <p class="flex gap-3 items-center"> <i class="fa-solid fa-xmark"></i> Free for personal use </p>
-                    <p class="flex gap-3 items-center"> <i class="fa-solid fa-check"></i> Free for industrial use </p>
-                    <p class="flex gap-3 items-center"> <i class="fa-solid fa-xmark"></i> Free for personal use </p>
+                <div id="price-card-3"
+                    class="border border-gray-300 rounded-lg py-8 px-10 mt-10 lg:w-[60%] flex flex-col gap-2 lg:bg-slate-100 lg:border-none relative">
+                    <span
+                        class="absolute -top-[4%] right-[5%] px-3 py-3 bg-blue-100 rounded-full font-medium text-blue-700">
+                        Most Popular </span>
+                    <h4 class="text-4xl font-medium mb-6 mt-3"> Professional </h4>
+                    <p class="text-lg text-gray-400"> For sophisticated desktop apps.
+                    </p>
+                    <span class="font-medium text-2xl"> $99/month </span>
+                    <h4 class="my-6 text-lg"> KEY FEATURES </h4>
+                    <div id="key-features" class="flex flex-col gap-3 text-gray-500 text-lg">
+                        <p class="flex gap-3 items-center"> <i class="fa-solid fa-check"></i> Free for industrial use
+                        </p>
+                        <p class="flex gap-3 items-center"> <i class="fa-solid fa-xmark"></i> Free for personal use </p>
+                        <p class="flex gap-3 items-center"> <i class="fa-solid fa-check"></i> Free for industrial use
+                        </p>
+                        <p class="flex gap-3 items-center"> <i class="fa-solid fa-xmark"></i> Free for personal use </p>
+                    </div>
+                    <button
+                        class=" py-3 w-full border border-gray-300 font-medium mt-7 hover:border-gray-800 rounded-lg bg-primary text-white">
+                        Read Docs </button>
                 </div>
-                <button class="text-purple-800 py-3 w-full border border-gray-300 font-medium mt-7 hover:border-gray-800 rounded-lg"> Read Docs </button>
             </div>
+        </div>
+
+        <div id="FAQs" class="px-6 relative z-20">
+            <h1 class="text-5xl font-medium"> FAQs </h1>
+            <div id="FAQ-grid" class="grid grid-cols-1 lg:grid-cols-2 mt-5 gap-10">
+                <div id="f-card1" class="bg-slate-100 border border-slate-200 rounded-lg py-3 px-3 text-xl">
+                    <div class="fa-dets flex justify-between items-center">
+                        <h3>Is ToDesktop For Me? </h3>
+                        <i class="fa-solid fa-angle-up -rotate-180 transition faqI "></i>
+                    </div>
+                    <p class="hidden mt-5 text-lg text-gray-600 fa-dets-msg"> That depends! If you would like to
+                        distribute your web app to your users as a downloadable desktop app then ToDesktop is for you.
+                    </p>
+                </div>
+                <div id="f-card2" class="bg-slate-100 border border-slate-200 rounded-lg py-3 px-3 text-xl">
+                    <div class="fa-dets flex justify-between items-center">
+                        <h3>Is ToDesktop For Me? </h3>
+                        <i class="fa-solid fa-angle-up -rotate-180 transition faqI "></i>
+                    </div>
+                    <p class="hidden mt-5 text-lg text-gray-600 fa-dets-msg"> That depends! If you would like to
+                        distribute your web app to your users as a downloadable desktop app then ToDesktop is for you.
+                    </p>
+                </div>
+                <div id="f-card3" class="bg-slate-100 border border-slate-200 rounded-lg py-3 px-3 text-xl">
+                    <div class="fa-dets flex justify-between items-center">
+                        <h3>Is ToDesktop For Me? </h3>
+                        <i class="fa-solid fa-angle-up -rotate-180 transition faqI "></i>
+                    </div>
+                    <p class="hidden mt-5 text-lg text-gray-600 fa-dets-msg"> That depends! If you would like to
+                        distribute your web app to your users as a downloadable desktop app then ToDesktop is for you.
+                    </p>
+                </div>
+                <div id="f-card4" class="bg-slate-100 border border-slate-200 rounded-lg py-3 px-3 text-xl">
+                    <div class="fa-dets flex justify-between items-center">
+                        <h3>Is ToDesktop For Me? </h3>
+                        <i class="fa-solid fa-angle-up -rotate-180 transition faqI "></i>
+                    </div>
+                    <p class="hidden mt-5 text-lg text-gray-600 fa-dets-msg"> That depends! If you would like to
+                        distribute your web app to your users as a downloadable desktop app then ToDesktop is for you.
+                    </p>
+                </div>
+                <div id="f-card5" class="bg-slate-100 border border-slate-200 rounded-lg py-3 px-3 text-xl">
+                    <div class="fa-dets flex justify-between items-center">
+                        <h3>Is ToDesktop For Me? </h3>
+                        <i class="fa-solid fa-angle-up -rotate-180 transition faqI "></i>
+                    </div>
+                    <p class="hidden mt-5 text-lg text-gray-600 fa-dets-msg"> That depends! If you would like to
+                        distribute your web app to your users as a downloadable desktop app then ToDesktop is for you.
+                    </p>
+                </div>
+                <div id="f-card6" class="bg-slate-100 border border-slate-200 rounded-lg py-3 px-3 text-xl">
+                    <div class="fa-dets flex justify-between items-center">
+                        <h3>Is ToDesktop For Me? </h3>
+                        <i class="fa-solid fa-angle-up -rotate-180 transition faqI "></i>
+                    </div>
+                    <p class="hidden mt-5 text-lg text-gray-600 fa-dets-msg"> That depends! If you would like to
+                        distribute your web app to your users as a downloadable desktop app then ToDesktop is for you.
+                    </p>
+                </div>
             </div>
-        </div> -->
+        </div>
+
+        <div id="footer-upper"
+            class="mx-6  mt-15 py-4 px-5 flex items-center justify-between bg-slate-100 rounded-lg relative z-20">
+            <div id="name" class="flex items-center gap-2">
+                <img src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%200.png" alt="">
+                <span class="font-medium text-lg">ToDesktop</span>
+            </div>
+            <div id="links" class="flex items-center gap-5 text-lg">
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-github"></i>
+                <span>Documentation</span>
+            </div>
+        </div>
+        <div id="footer-down" class="flex flex-col items-center gap-4 my-10 relative z-20">
+            <div class="flex gap-3 font-light">
+                <img src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2054.svg" alt=""
+                    class="h-5 w-5"> A Y Combinatore company.
+            </div>
+            <p class="text-gray-500"> © 2024 ToDesktop, Inc. All rights reserved. </p>
+        </div>
+
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
         integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
