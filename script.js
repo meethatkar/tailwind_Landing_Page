@@ -5,7 +5,7 @@ function handleMenu() {
 
 const initialTranslateLTR = -30 * 4;
 const initialTransalateRTL = 1 * 4;
-const fasterScroll_initialTranslate = 30*4;
+const fasterScroll_initialTranslate = 20*4;
 //this is set so, the htm translate-x-50 will be there or else the animation effect begans from x=0;
 
 function setupIntersectionObserver(element, isLTR, speed) {
@@ -53,10 +53,10 @@ const line2 = document.getElementById('line2');
 const line3 = document.getElementById('line3');
 const fasterScrollDiv = document.querySelector("#fast-scroller");
 
-setupIntersectionObserver(line1, true, 0.14);
-setupIntersectionObserver(line2, false, 0.14);
-setupIntersectionObserver(line3, true, 0.14);
-setupIntersectionObserver(fasterScrollDiv,false,1);
+setupIntersectionObserver(line1, true, 0.24);
+setupIntersectionObserver(line2, false, 0.24);
+setupIntersectionObserver(line3, true, 0.24);
+setupIntersectionObserver(fasterScrollDiv,false,0.9);
 
 // GSAP 
 var crsr = document.querySelector("#cursor");
