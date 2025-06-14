@@ -3,13 +3,14 @@ function handleMenu() {
     nav_mobile_div.classList.toggle("hidden");      //hidden is tailwindcss 
 }
 
-const initialTranslateLTR = -30 * 4;
+const initialTranslateLTR = -30 * 4;        //30 is tailwind value and 4 is pixel.
 const initialTransalateRTL = 1 * 4;
 const fasterScroll_initialTranslate = 20*4;
 //this is set so, the htm translate-x-50 will be there or else the animation effect begans from x=0;
 
 function setupIntersectionObserver(element, isLTR, speed) {
     const intersectionCallback = (entries) => {
+        //here entries[0] is because entries is array which is returned by observer's callback function, and as we are passing single div at a time, we have only one element in array.
         const isIntersectingVar = entries[0].isIntersecting;
         console.log("scroll",element);
         // console.log("element: ",isIntersectingVar);
